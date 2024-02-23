@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 14.2.2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: Vishnupriya R
+###  ROLL NO : 212222110054
+###  DEPARTMENT: CSE-IoT
 
 
 
@@ -86,13 +86,29 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```
+Name : Vishnupriya R
+Reg no: 212222110054
 
 
-
+#include "main.h" 
+#include"stdio.h" 
+while (1)                                                      
+{                                                              
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, RESET);             
+    HAL_Delay(1000);                                         
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, SET);               
+    HAL_Delay(1000);
+}
+```
 
 
 ## OUTPUT  :
- 
+### LED OFF:
+![307218992-c18201d9-7b42-4009-8a8d-ff48ed1c06cc](https://github.com/vishnupriyaramesh17/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/119393589/832871da-cd6b-496c-ac6c-c299fc4a4d47)
+### LED ON:
+![307219360-472921d6-ec26-49b9-85c9-4f2c94099454](https://github.com/vishnupriyaramesh17/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/119393589/ba273a36-fe07-49f0-b3dc-4d84399cbce0)
+
  
  
  
